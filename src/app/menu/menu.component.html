@@ -1,0 +1,12 @@
+<header>
+  <h1>Blog Diego</h1>
+
+  <nav>
+      <ul>
+          <li><a style = "margin- " routerLink="/listado">Listado</a></li>
+          <li><a routerLink="/nosotros">Acerca de Nosotros</a></li>
+          <li><a *ngIf="miToken == 0" routerLink="/login">Login</a></li>
+          <li><a *ngIf="miToken != 0"  (click)="logout()">Logout</a></li>
+      </ul>
+  </nav>
+</header>

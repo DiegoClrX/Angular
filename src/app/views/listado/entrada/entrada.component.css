@@ -1,0 +1,21 @@
+#entrada {
+  background-color: aqua;
+  border-radius: 10px;
+
+}
+
+#entrada * {
+  padding: 10px;
+  width: 20%;
+  float: left;
+}
+#entradaStyle{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 15%;
+  padding: 2%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
